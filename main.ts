@@ -160,3 +160,6 @@ let EnemySprite = sprites.create(img`
     `, SpriteKind.Enemy)
 EnemySprite.follow(PlayerSprite, 100)
 EnemySprite.setPosition(20, 20)
+for (let Index = 0; Index <= 4; Index++) {
+	
+}
