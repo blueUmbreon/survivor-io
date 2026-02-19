@@ -160,3 +160,4 @@ let EnemySprite = sprites.create(img`
     `, SpriteKind.Enemy)
 EnemySprite.follow(PlayerSprite, 100)
 EnemySprite.setPosition(20, 20)
+game.showLongText("Leck Eier", DialogLayout.Full)
