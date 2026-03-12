@@ -155,6 +155,25 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.castle.tileGrass2], TileScale.Sixteen);
+            case "Level3":
+            case "Level3":return tiles.createTilemap(hex`1000100001080808080808080808080808080802070909090909090909090909090909060709090909090909090909090909090607090909090909090909090909090906070909090909090909090909090909060709090909090909090909090909090607090909090909090909090909090906070909090909090909090909090909060709090909090909090909090909090607090909090909090909090909090906070909090909090909090909090909060709090909090909090909090909090607090909090909090909090909090906070909090909090909090909090909060709090909090909090909090909090603050505050505050505050505050504`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundNorthEast0,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouthEast0,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundWest,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundCenter], TileScale.Sixteen);
         }
         return null;
     })
